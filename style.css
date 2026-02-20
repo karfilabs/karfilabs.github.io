@@ -117,3 +117,22 @@ a:focus-visible{
   nav a{ padding: 8px 10px; }
   main{ padding: 18px 16px; }
 }
+/* ===== Images ===== */
+.figure{
+  margin: 0 0 16px;
+}
+
+.figure img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.figcaption{
+  margin-top: 8px;
+  font-size: 14px;
+  color: rgba(234,240,255,.75);
+}
